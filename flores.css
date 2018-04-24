@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/*fin del reset*/
+
+body{
+	font-size: 62.5%;
+}
+
+h1{
+	font:normal 2.4em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: -webkit-linear-gradient(top,#00F,#0CF);
+	width: 35%;
+	border-radius: 10px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 15px;
+	color:white;
+	box-shadow:#00F 5px 5px 10px ;
+}
+
+h2{
+	font: bold 1.7em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 0;
+	padding: 5px 0px 5px 0px;
+	color: black;	
+}
+
+section{
+	width: 91%;
+	border-top: 1px dashed grey;
+	margin: 15px auto;
+}
+
+figure{
+	display: inline-block;
+}
+figure img{
+	padding: 4px;
+	background: #626262;
+	border-radius: 20px;
+	box-shadow: #999 5px 5px 10px;
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+}
+figure img:hover{
+	-webkit-transform:scale(1.2);
+}
+
+figcaption{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.3em ;
+	text-align: center;
+	margin-top: 5px;
+}
+
+footer{
+	clear: both;
+	padding-top: 100px;
+}
+
+footer p{
+	font: 1.6em Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #666;
+	margin: 10px 8px;
+}
